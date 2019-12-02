@@ -1,0 +1,222 @@
+/* Colors and Fonts */
+
+body {
+	color: black;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	font-weight:lighter;
+	margin: 0px 0px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 56px;
+}
+
+h2 {
+	font-size: 42px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 36px;
+}
+
+h4 {
+	font-size: 24px;
+	font-weight:lighter;
+	line-height: 1.5;
+}
+
+p {
+	line-height: 1.5;
+}
+
+a {
+	color: rgb(50, 50, 50);
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+a:hover {
+	color:black;
+
+}
+
+
+/* Custom Design with class */
+
+	/* Navigation bar */
+
+.navbar {
+	background-color:black;
+	opacity:0.80;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position:sticky;
+    top:0;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.navbar a{
+	color:white;
+}
+
+.navbar a:hover {
+	color:grey;
+}
+
+ 	/* Header */
+
+.header {
+	padding: 50px 0px 50px 0px;
+	background-size:cover;
+	background-image: url(images/backgroundheader.jpg);
+
+}
+
+	/* Containers*/
+
+.generalcontainer{
+	width: 95%;
+	margin: 40px auto;
+}
+
+.cardcontainer {
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	margin-bottom:100px;
+	flex-wrap:wrap;
+}
+
+	/*Cards*/
+
+.card {
+	text-align: center;
+}
+
+.card a{
+	margin:0 auto;
+}
+
+.card-white {
+	background-color: white;
+	background-position: center;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	height:320px;
+	flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+}
+
+#cardwhite1{
+	background-image: url(images/friendship.jpg);
+	background-size: cover;
+}
+#cardwhite2 {
+	background-image: url(images/rose.jpg);
+	background-size: cover;
+}
+#cardwhite3 {
+	background-image: url(images/flirt.png);
+	background-size: cover;
+}
+#cardwhite4 {
+	background-image: url(images/womenflower.jpg);
+	background-size: cover;
+}
+
+	/*Banner*/
+
+.banner {
+	background-color:rgb(231, 114, 50);
+	background-size:cover;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	width:100%;
+}
+
+	/*Testimonial*/
+
+#testimonial {
+	margin-top:80px;
+	height:460px;
+
+}
+
+#testimonial h2{
+	color:#E1E1E1;
+	opacity: 60%;
+}
+
+	/*Footer*/
+
+.footer {
+	background-color:black;
+	text-align:center;
+	opacity:0.80;
+}
+
+	/*Button*/
+
+
+.btn-pink {
+	background-color:black;
+	text-align: center;
+	color:white;
+	padding:10px 20px;
+	border-radius: 4px;
+	width:176px;
+	display:block;
+	margin-bottom: 20px ;
+
+} 
+
+.btn-pink:hover{
+	background-color: #EA3966;
+	color:white;
+}
+
+	/*Images*/
+
+.img-circle {
+	border-radius:50%;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+
+.title-header{
+	margin-left: 50px;
+}
+
+/* Media Queries */ 
+
+@media ( max-width: 760px) {
+	.generalcontainer {
+		width:70%;
+	}
+
+	.header {
+		width:100%;
+	}
+}
+
+@media ( max-width: 500px) {
+	.generalcontainer {
+		width:60%;
+		text-align:center;
+	}
+	.header {
+		width:100%;
+	}
+
+}
+
