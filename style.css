@@ -99,6 +99,13 @@ a:hover {
 	flex-wrap:wrap;
 }
 
+.cardwhitecontainer {
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	flex-wrap:wrap;
+}
+
 	/*Cards*/
 
 .card {
