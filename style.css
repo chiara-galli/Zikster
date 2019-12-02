@@ -211,7 +211,7 @@ a:hover {
 
 @media ( max-width: 500px) {
 	.generalcontainer {
-		width:60%;
+		width:95%;
 		text-align:center;
 	}
 	.header {
